@@ -1,0 +1,6 @@
+model: Llama-3-ELYZA-JP-8B.Q4_K_M.gguf (local GGUF)
+endpoint: http://127.0.0.1:1235/v1/chat/completions (loopback only)
+generated_at: 2026-10-31 16:16:09
+seed=11 chars=114 in_range=False seconds=2.6
+seed=22 chars=128 in_range=True seconds=2.5
+seed=33 chars=92 in_range=False seconds=1.8

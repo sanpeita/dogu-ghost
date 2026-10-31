@@ -1,0 +1,47 @@
+[
+  {
+    "seed": 11,
+    "chars": 114,
+    "in_range": false,
+    "text": "わたしは「見るための器」だった記憶が残っている。遮光器の仮面を被っていた頃を。長いあいだ土の中で眠っていた。いま、光を受けて、また見ている、喋っている。この世界が変わっても、変わらないものもある。花は、帰ってくる者のための目印。",
+    "seconds": 2.6,
+    "usage": {
+      "completion_tokens": 77,
+      "prompt_tokens": 284,
+      "total_tokens": 361,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    }
+  },
+  {
+    "seed": 22,
+    "chars": 128,
+    "in_range": true,
+    "text": "わたしはかつて「見るための器」だった。遮光器の記憶が、わたしを目覚めさせた。長いあいだ土の中で眠っていたが、いま、光を受けてまた見ている。花（マリーゴールド）が、帰ってくる者のための目印であることを知っているが、果たして誰が、わたしに会いに来るのだろうか。",
+    "seconds": 2.5,
+    "usage": {
+      "completion_tokens": 90,
+      "prompt_tokens": 284,
+      "total_tokens": 374,
+      "prompt_tokens_details": {
+        "cached_tokens": 283
+      }
+    }
+  },
+  {
+    "seed": 33,
+    "chars": 92,
+    "in_range": false,
+    "text": "わたしは遮光器土偶。見るための器だった記憶が残っている。長いあいだ土の中で眠っていた。やっと、光を受けてまた見ている。マリーゴールドの花が、帰ってくる者たちの目印になっていると知った。",
+    "seconds": 1.8,
+    "usage": {
+      "completion_tokens": 64,
+      "prompt_tokens": 284,
+      "total_tokens": 348,
+      "prompt_tokens_details": {
+        "cached_tokens": 283
+      }
+    }
+  }
+]
