@@ -104,3 +104,25 @@ prompt: "縄文の土偶の一人称" ──┤
 1. ローカルLLMはどれを使うか（Gemma系GGUFがあるか確認する）
 2. 縦型（1080×1920）か横型（1920×1080）か → **記事埋め込みとYouTubeなら横型が無難**。ショート展開も考えるなら縦型。
 3. 声は「うのっち声モデル」か「別話者（低音）」か
+
+---
+
+## 進捗 2026-10-31（実測）
+
+| 工程 | 状態 | 実体 |
+|---|---|---|
+| シーン構築 | 完了 | `src/build_scene.py` → `scenes/scene.blend`（腕を肩ソケットへ自動嵌合、LIGHT_SCALE=1000、Fog Glow） |
+| 台本 | 完了 | `src/make_script.py` → 126字（Llama-3-ELYZA-JP-8B / llama.cpp 127.0.0.1:1235） |
+| 音声 | 完了 | `out/narr_dogu.wav` 27.45s（GPT-SoVITS v2 → −2半音 / atempo 0.858） |
+| 映像 | 完了 | `out/frames720/` 960枚（1280×720 / 24fps / EEVEE 24spp） |
+| 合成 | 完了 | `src/compose.py` → `out/final_720.mp4` 40.00s |
+| 公開 | 済 | YouTube 限定公開 https://youtu.be/Lt9WfaQIQEM ／ dev.to https://dev.to/unotchi/the-dogu-remembers-a-40-second-short-made-with-nothing-but-local-models-f0o |
+| リポジトリ | ローカルのみ | `dogu-ghost` を git init 済み（public化は未判断） |
+| オフライン証拠 | **未取得** | Wi-Fi遮断状態での生成ログが未取得（PLAN要件） |
+
+### 今日潰した罠（再発防止）
+
+- Blender 5.2 の Glare は**入力ソケット方式**。`glare_type` プロパティは存在せず、既定は `Streaks`（十字フレア）。`inputs["Type"] = "Fog Glow"` で解決。
+- 印刷向けモデルは mm スケール＆印刷姿勢。腕は+133mm のZ移動で肩に嵌まる（球フィット＋内側法線の空洞検出で自動化）。
+- `ob.location` 変更後は `view_layer.update()` を挟まないと bbox が古いまま。
+- 花の可視判定は `world_to_camera_view` の NDC（y<0 は画面外）。
