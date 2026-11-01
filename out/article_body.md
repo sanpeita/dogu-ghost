@@ -122,7 +122,7 @@ not that it beats the cloud on quality. It is that it stays available, and it le
 
 ## Agent session
 
-Built with Hermes Agent (Marcel/marcos profile) driving Blender headless, llama.cpp and ffmpeg from
+Built with Hermes Agent (Marcos profile) driving Blender headless, llama.cpp and ffmpeg from
 one session; the still frames, the light ladder and the joint fit were all measured, not guessed.
 
 ## Licence

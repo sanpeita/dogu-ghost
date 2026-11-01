@@ -117,10 +117,10 @@ prompt: "縄文の土偶の一人称" ──┤
 | 映像 | 完了 | `out/frames720/` 960枚（1280×720 / 24fps / EEVEE 24spp） |
 | 合成 | 完了 | `src/compose.py` → `out/final_720.mp4` 40.00s |
 | 公開 | 済 | YouTube 限定公開 https://youtu.be/Lt9WfaQIQEM ／ dev.to https://dev.to/unotchi/the-dogu-remembers-a-40-second-short-made-with-nothing-but-local-models-f0o |
-| リポジトリ | ローカルのみ | `dogu-ghost` を git init 済み（public化は未判断） |
+| リポジトリ | **公開済み（2026-11-01）** | https://github.com/sanpeita/dogu-ghost （PUBLIC / MIT / 公開HEAD `a5ceafe`。旧履歴はローカル `tag archive/pre-public`） |
 | オフライン証拠 | **未取得** | Wi-Fi遮断状態での生成ログが未取得（PLAN要件） |
 
-**提出完了（2026-11-01 09:55 JST 検証）**: 詳細は `D:/ToolProjects/hermes-pi-lab/work/hf26-week4-20261031/SUBMISSION_LOG.md`（記事公開 10/31 17:01 JST / タグ2つ / 動画oEmbed 200 / 窓内完結）。カレンダーは完了記録イベント `f9sg4sqcjcoqj0mi4gnmvf9pps` を追加し、W4⑦⑧⑨ に `【済 2026-10-31】` を付与、締切イベントは状態のみ done。**未達は「公開リポジトリ未公開」と「Wi-Fi遮断のオフライン証跡」**（記事に repo URL を書いていないため記述の不整合は無い）。
+**提出完了（2026-11-01 09:55 JST 検証 / 11:05 更新）**: 詳細は `D:/ToolProjects/hermes-pi-lab/work/hf26-week4-20261031/SUBMISSION_LOG.md`（記事公開 10/31 17:01 JST / タグ2つ / 動画oEmbed 200 / 窓内完結）。カレンダーは完了記録イベント `f9sg4sqcjcoqj0mi4gnmvf9pps` を追加し、W4⑦⑧⑨ に `【済 2026-10-31】` を付与、締切イベントは状態のみ done。**リポジトリは 2026-11-01 に PUBLIC 化**（`https://github.com/sanpeita/dogu-ghost`／音声サンプル `out/tts/narr.wav` は履歴から除外し、トークンパスを環境変数化、READMEに Release note を追記）。**残る未達は「Wi-Fi遮断のオフライン実行証跡」のみ**（記事は取得済みと主張していない）。
 
 ### 今日潰した罠（再発防止）
 
