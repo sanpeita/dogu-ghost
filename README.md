@@ -73,3 +73,17 @@ worth knowing if you reuse it:
 ## Licence
 
 Code and text: MIT (`LICENSE`). The rendered stills in `docs/` are released under CC BY 4.0.
+
+## Release note
+
+This repository is the public mirror of the project submitted to the **Hacktoberfest Open-Source AI
+Challenge, Week 4 — "Ghost in the Machine"** (challenge window 2026-10-26 → 2026-10-31).
+
+- Submission article: <https://dev.to/unotchi/the-dogu-remembers-a-40-second-short-made-with-nothing-but-local-models-f0o>
+- The 40-second film: <https://youtu.be/Lt9WfaQIQEM>
+- Developed and cut inside the challenge window (last work commit 2026-10-31 17:01 JST).
+- **This public mirror was published on 2026-11-01**, after the window closed. The code is the same
+  code that produced the submitted film; the only changes made for publication are hygiene: the
+  generated narration WAV (a sample of the personal TTS voice) is excluded from history, and the
+  YouTube token path in `src/upload_youtube.py` is now taken from an environment variable.
+

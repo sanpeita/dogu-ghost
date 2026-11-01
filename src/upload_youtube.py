@@ -13,7 +13,10 @@ import time
 import urllib.parse
 import urllib.request
 
-TOKEN = r"C:\Users\unocy\AppData\Local\hermes\profiles\marcos\google_token_youtube.json"
+TOKEN = os.environ.get(
+    "YOUTUBE_TOKEN",
+    os.path.expanduser("~/.hermes/google_token_youtube.json"),
+)
 
 TITLE = "The Dogu Remembers / 遮光器土偶の記憶 (40s, fully offline)"
 DESCRIPTION = """A Jōmon dogū narrates its own memory. Script by a local GGUF (Llama-3-ELYZA-JP-8B),

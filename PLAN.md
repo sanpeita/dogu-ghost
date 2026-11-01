@@ -120,6 +120,8 @@ prompt: "縄文の土偶の一人称" ──┤
 | リポジトリ | ローカルのみ | `dogu-ghost` を git init 済み（public化は未判断） |
 | オフライン証拠 | **未取得** | Wi-Fi遮断状態での生成ログが未取得（PLAN要件） |
 
+**提出完了（2026-11-01 09:55 JST 検証）**: 詳細は `D:/ToolProjects/hermes-pi-lab/work/hf26-week4-20261031/SUBMISSION_LOG.md`（記事公開 10/31 17:01 JST / タグ2つ / 動画oEmbed 200 / 窓内完結）。カレンダーは完了記録イベント `f9sg4sqcjcoqj0mi4gnmvf9pps` を追加し、W4⑦⑧⑨ に `【済 2026-10-31】` を付与、締切イベントは状態のみ done。**未達は「公開リポジトリ未公開」と「Wi-Fi遮断のオフライン証跡」**（記事に repo URL を書いていないため記述の不整合は無い）。
+
 ### 今日潰した罠（再発防止）
 
 - Blender 5.2 の Glare は**入力ソケット方式**。`glare_type` プロパティは存在せず、既定は `Streaks`（十字フレア）。`inputs["Type"] = "Fog Glow"` で解決。

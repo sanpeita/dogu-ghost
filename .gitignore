@@ -3,5 +3,6 @@ out/frames/
 out/frames720/
 out/*.mp4
 out/*.wav
+out/**/*.wav
 *.blend1
 __pycache__/
